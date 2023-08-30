@@ -1,0 +1,7 @@
+no_of_days=(int(input()))
+no_of_years=(no_of_days//365)
+no_of_weeks=(no_of_days//7)
+no_of_daysf=(no_of_weeks%7)
+print("no_of_years:",no_of_years)
+print("no_of_weeks:",no_of_weeks)
+print("no_of_days:",no_of_daysf)
